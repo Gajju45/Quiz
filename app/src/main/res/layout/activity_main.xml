@@ -1,0 +1,471 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00555555"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Quiz "
+            android:textSize="35sp"
+
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1'OS' computer abbreviation usually means ?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+            />
+
+            <RadioGroup
+                android:id="@+id/radioGroupOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:text="Order of Significance"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="	Open Software"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:text="Operating System"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555 "
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="2.'.MOV' extension refers usually to what kind of file?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionTwoOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionTwoOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionTwoOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00555555"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Which is a type of Electrically-Erasable Programmable Read-Only Memory?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionThreeOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionThreeOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionThreeOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. '.MPG' extension refers usually to what kind of file?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+
+                android:scaleType="centerCrop"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:text="@string/RadioButtonQuestionFourOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionFourOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionFourOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="5. What is MB?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+
+
+            <EditText
+                android:id="@+id/userResponse_AnswerFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/Typehere"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="6.What Is KB?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+
+
+            <EditText
+                android:id="@+id/userResponse_AnswerSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/Typehere"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.How many applications are there in a given task in android?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionSevenOptionOne"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionSevenOptionTwo"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_CorrectAnswerSeven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="@string/RadioButtonQuestionSevenOptionThree"
+                    android:textColor="@color/textColor"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00555555"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Feature Of Java?"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                />
+
+
+            <CheckBox
+                android:id="@+id/cb_CorrectAnswerEight_1"
+
+                android:text="@string/CheckBoxQuestionEightOptionOne"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cb_CorrectAnswerEight_2"
+
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/CheckBoxQuestionEightOptionTwo"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cb_WrongAnswerEight"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/CheckBoxQuestionEightOptionThree"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:onClick="SubmitResponse"
+                android:layout_margin="20dp"
+                android:text="Submit" />
+
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:onClick="ResetQuiz"
+                android:layout_margin="20dp"
+                android:id="@+id/all"
+                android:text="Reset" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

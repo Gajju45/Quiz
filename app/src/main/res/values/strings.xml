@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+
+    <string name="RadioButtonQuestionOneOptionOne">Order of Significance</string>
+    <string name="RadioButtonQuestionOneOptionTwo">Open Software</string>
+    <string name="RadioButtonQuestionOneOptionThree">Optical Sensor</string>
+
+    <string name="RadioButtonQuestionTwoOptionOne">Image file</string>
+    <string name="RadioButtonQuestionTwoOptionTwo">Animation/movie file</string>
+    <string name="RadioButtonQuestionTwoOptionThree">Audio file</string>
+
+    <string name="RadioButtonQuestionThreeOptionOne">Flash</string>
+    <string name="RadioButtonQuestionThreeOptionTwo">Flange</string>
+    <string name="RadioButtonQuestionThreeOptionThree">FRAM</string>
+
+    <string name="RadioButtonQuestionFourOptionOne">Animation/movie file</string>
+    <string name="RadioButtonQuestionFourOptionTwo">MS Office document</string>
+    <string name="RadioButtonQuestionFourOptionThree">WordPerfect Document file</string>
+
+    <string name="Typehere">Type Your Answer Here in Small Letter</string>
+
+    <string name="RadioButtonQuestionSevenOptionOne">2</string>
+    <string name="RadioButtonQuestionSevenOptionTwo">4</string>
+    <string name="RadioButtonQuestionSevenOptionThree">Many</string>
+
+    <string name="CheckBoxQuestionEightOptionOne">OOps</string>
+    <string name="CheckBoxQuestionEightOptionTwo">Secure</string>
+    <string name="CheckBoxQuestionEightOptionThree">None </string>
+
+
+
+    <string name="AnswerFive">megabyte </string>
+    <string name="AnswerSix">kilobyte</string>
+
+</resources>
